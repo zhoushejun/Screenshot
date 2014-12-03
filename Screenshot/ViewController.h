@@ -10,4 +10,9 @@
 
 @interface ViewController : UIViewController
 
+
+    /** 设置背景 */
+- (void)setBgImg;
+    /** 截屏 */
+- (void)screenshot;
 @end

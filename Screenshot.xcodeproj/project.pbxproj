@@ -18,6 +18,8 @@
 		189ADEC617A51DD4007E7D1C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 189ADEC517A51DD4007E7D1C /* Default-568h@2x.png */; };
 		189ADEC917A51DD4007E7D1C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 189ADEC817A51DD4007E7D1C /* ViewController.m */; };
 		189ADECC17A51DD4007E7D1C /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 189ADECA17A51DD4007E7D1C /* ViewController.xib */; };
+		189ADED317A52203007E7D1C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 189ADED217A52203007E7D1C /* QuartzCore.framework */; };
+		189ADEDB17A52BEB007E7D1C /* QQ20130728-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 189ADEDA17A52BEB007E7D1C /* QQ20130728-7.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,8 @@
 		189ADEC717A51DD4007E7D1C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		189ADEC817A51DD4007E7D1C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		189ADECB17A51DD4007E7D1C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		189ADED217A52203007E7D1C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		189ADEDA17A52BEB007E7D1C /* QQ20130728-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "QQ20130728-7.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				189ADED317A52203007E7D1C /* QuartzCore.framework in Frameworks */,
 				189ADEB017A51DD4007E7D1C /* UIKit.framework in Frameworks */,
 				189ADEB217A51DD4007E7D1C /* Foundation.framework in Frameworks */,
 				189ADEB417A51DD4007E7D1C /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +61,7 @@
 		189ADEA317A51DD4007E7D1C = {
 			isa = PBXGroup;
 			children = (
+				189ADED917A52BEB007E7D1C /* Resource */,
 				189ADEB517A51DD4007E7D1C /* Screenshot */,
 				189ADEAE17A51DD4007E7D1C /* Frameworks */,
 				189ADEAD17A51DD4007E7D1C /* Products */,
@@ -73,6 +79,7 @@
 		189ADEAE17A51DD4007E7D1C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				189ADED217A52203007E7D1C /* QuartzCore.framework */,
 				189ADEAF17A51DD4007E7D1C /* UIKit.framework */,
 				189ADEB117A51DD4007E7D1C /* Foundation.framework */,
 				189ADEB317A51DD4007E7D1C /* CoreGraphics.framework */,
@@ -105,6 +112,14 @@
 				189ADEC517A51DD4007E7D1C /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		189ADED917A52BEB007E7D1C /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				189ADEDA17A52BEB007E7D1C /* QQ20130728-7.png */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +178,7 @@
 				189ADEC417A51DD4007E7D1C /* Default@2x.png in Resources */,
 				189ADEC617A51DD4007E7D1C /* Default-568h@2x.png in Resources */,
 				189ADECC17A51DD4007E7D1C /* ViewController.xib in Resources */,
+				189ADEDB17A52BEB007E7D1C /* QQ20130728-7.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
